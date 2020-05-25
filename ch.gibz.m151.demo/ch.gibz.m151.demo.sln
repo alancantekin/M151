@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch.gibz.m151.demo.api", "ch.gibz.m151.demo.api\ch.gibz.m151.demo.api.csproj", "{84391F88-50CF-4872-80D8-FB2736F0D769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch.gibz.m151.demo.data", "ch.gibz.m151.demo.data\ch.gibz.m151.demo.data.csproj", "{980E35DA-DFB9-4209-B83B-FF8D4C6A0372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84391F88-50CF-4872-80D8-FB2736F0D769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84391F88-50CF-4872-80D8-FB2736F0D769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84391F88-50CF-4872-80D8-FB2736F0D769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84391F88-50CF-4872-80D8-FB2736F0D769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980E35DA-DFB9-4209-B83B-FF8D4C6A0372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980E35DA-DFB9-4209-B83B-FF8D4C6A0372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980E35DA-DFB9-4209-B83B-FF8D4C6A0372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980E35DA-DFB9-4209-B83B-FF8D4C6A0372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2983A34-B164-4BB9-B53F-8F1159230A35}
+	EndGlobalSection
+EndGlobal
