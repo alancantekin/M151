@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace ch.gibz.m151.demo.api.Models
 {
-    public class TodoItem
-    {
-        public long Id { get; set; }
-        [Required]
-        public string Name { get; set; }
-        [DefaultValue(false)]
-        public bool IsComplete { get; set; }
-        public string Secret { get; set; }
-    }
+    //public class TodoItem
+    //{
+    //    public long Id { get; set; }
+    //    [Required]
+    //    public string Name { get; set; }
+    //    [DefaultValue(false)]
+    //    public bool IsComplete { get; set; }
+    //    public string Secret { get; set; }
+    //}
 }

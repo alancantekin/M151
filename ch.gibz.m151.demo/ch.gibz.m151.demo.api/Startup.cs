@@ -11,6 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using ch.gibz.m151.demo.api.Models;
 using ch.gibz.m151.demo.api.Services;
+using ch.gibz.m151.demo.data;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -62,8 +63,8 @@ namespace ch.gibz.m151.demo.api
 
 
             // SWAGGER from here on
-            services.AddDbContext<TodoContext>(opt =>
-                opt.UseInMemoryDatabase("TodoList"));
+            services.AddDbContext<M151Context>(opt =>
+                opt.UseSqlServer("M151TestContext"));
             services.AddControllers();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
