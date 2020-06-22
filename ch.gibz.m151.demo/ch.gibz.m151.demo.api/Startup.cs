@@ -63,8 +63,7 @@ namespace ch.gibz.m151.demo.api
 
 
             // SWAGGER from here on
-            services.AddDbContext<M151Context>(opt =>
-                opt.UseSqlServer("M151TestContext"));
+            services.AddDbContext<M151Context>(opt => opt.UseSqlServer(Configuration.GetConnectionString("M151TestContext")));
             services.AddControllers();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
